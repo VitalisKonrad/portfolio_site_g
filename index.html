@@ -5,7 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Конрад-dev</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
 	<script src="https://use.fontawesome.com/0829ef8534.js"></script>
 </head>
 <body>
@@ -14,24 +17,24 @@
 		<div class="hero-header">
 			<img class="logo" src="img/logo.png" alt="logo" class="logo">
 			<div class="social-links">
-				<a href="#" class="social-link fa fa-facebook fa-2x"></a>
-				<a href="" class="social-link fa fa-github fa-2x"></a>
-				<a href="" class="social-link fa fa-instagram fa-2x"></a>
-				<a href="" class="social-link fa fa-twitter fa-2x" ></a>
+				<a href="https://www.facebook.com/profile.php?id=100000043020020" class="social-link fa fa-facebook fa-2x"></a>
+				<a href="https://github.com/VitalisKonrad" class="social-link fa fa-github fa-2x"></a>
+				<a href="https://www.instagram.com/vitaliskonrad/" class="social-link fa fa-instagram fa-2x"></a>
+				<a href="https://vk.com/vitalis_konrad" class="social-link fa fa-vk fa-2x" ></a>
 			</div>
 			<!-- /.social-links -->
 		</div>
 		<!-- /.hero-header -->
 		<div class="hero-content">
 			<div class="hero-text">
-				<span class="hero-subtitle">Фрилансер</span>
-				<h1 class="hero-title">Коломиец Виталий</h1>
-				<p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать верстку
+				<span class="hero-subtitle wow fadeInRight" data-wow-delay="0.15s">Фрилансер</span>
+				<h1 class="hero-title wow fadeInRight" data-wow-delay="0.25s">Коломиец Виталий</h1>
+				<p class="hero-description wow fadeInRight" data-wow-delay="0.25s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать верстку
 					небольшого сайта или интернет-магазина</p>
-				<button class="button hero-button">Бесплатная консультация</button>
+				<button class="button hero-button wow fadeInRight" data-wow-delay="0.25s">Бесплатная консультация</button>
 			</div>
 			<!-- /.hero-text -->
-			<div class="hero-avatar">
+			<div class="hero-avatar wow jackInTheBox">
 
 			</div>
 			<!-- /.hero-avatar -->
@@ -41,6 +44,94 @@
 	<!-- /.container -->
 
 </header>
+<main>
+	<section class="features section">
+		<div class="container">
+			<h2 class="section-title">Со мной удобно работать</h2>
+			<div class="features-block">
+				<div class="features-item">
+					<img src="img/features/offer-img.svg" alt="По договору" class="features-image">
+					<h3 class="features-title">По договору</h3>
+					<p class="features-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+				</div>
+				<div class="features-item">
+					<img src="img/features/deadline-img.svg" alt="Точно в срок" class="features-image">
+					<h3 class="features-title">Точно в срок</h3>
+					<p class="features-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+				</div>
+				<div class="features-item">
+					<img src="img/features/agreement-img.svg" alt="" class="features-image">
+					<h3 class="features-title">Ценник под вас</h3>
+					<p class="features-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+				</div>
+				<div class="features-item">
+					<img src="img/features/steps-img.svg" alt="Премежуточные итоги" class="features-image">
+					<h3 class="features-title">Премежуточные итоги</h3>
+					<p class="features-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
+				</div>
+				<div class="features-item">
+					<img src="img/features/storage-img.svg" alt="Хостинг и домен " class="features-image">
+					<h3 class="features-title">Хостинг и домен </h3>
+					<p class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+				</div>
+				<div class="features-item">
+					<img src="img/features/conversation-img.svg" alt="" class="features-image">
+					<h3 class="features-title">Не брошу после сдачи</h3>
+					<p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+				</div>
+			</div>
+			<!-- /.features-block -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.features -->
+</main>
+<footer class="section">
+	<div class="container">
+		<h2 class="section-title">Свяжитесь со мной</h2>
+		<div class="contacts-block">
+			<form action="#" class="contacts-form">
+				<h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+				<input type="text" class="input input-name" placeholder="Ваше имя">
+				<input type="text" class="input input-phone" placeholder="Ваш телефон">
+				<button class="button form-button">Бесплатная консультация</button>
+			</form>
+			<div class="contact-text">
+				<div class="contacts-data">
+					<div class="contacts-phone">
+						<h4 class="contacts-title">Телефон</h4>
+						<a href="tel:+380713465420" class="contacts-link">+3 8071 346-54-20</a>
+					</div>
+					<!-- /.contacts-phone -->
+					<div class="contacts-mail">
+						<h4 class="contacts-title">Почта</h4>
+						<a href="mailto:kolomiiets.job@gmail.com" class="contacts-link">kolomiiets.job@gmail.com</a>
+					</div>
+					<!-- /.contacts-mail -->
+					<div class="contacts-social">
+						<h4 class="contacts-title">Соцсети</h4>
+						<a href="https://t.me/VitalisKonrad" class="contacts-link">t.me/KonradDev</a>
+						<a href="https://vk.me/vitalis_konrad" class="contacts-link">vk.me/KonradDev</a>
+						<a href="https://m.me/t/VitalisKonradDev" class="contacts-link">messenger.me/KonradDev</a>
+					</div>
+					<!-- /.contacts-social -->
+				</div>
+				<!-- /.contacts-data -->
+				<div class="social-links">
+					<a href="https://www.facebook.com/profile.php?id=100000043020020" class="social-link fa fa-facebook fa-2x"></a>
+					<a href="https://github.com/VitalisKonrad" class="social-link fa fa-github fa-2x"></a>
+					<a href="https://www.instagram.com/vitaliskonrad/" class="social-link fa fa-instagram fa-2x"></a>
+					<a href="https://vk.com/vitalis_konrad" class="social-link fa fa-vk fa-2x" ></a>
+				</div>
+				<!-- /.social-links -->
+				<a href="#" class="contacts-policy">Политика конфиденциальности</a>
+			</div>
+			<!-- /.contact-text -->
+		</div>
+		<!-- /.contacts-block -->
+	</div>
+	<!-- /.container -->
+</footer>
 
 </body>
 </html>
