@@ -124,6 +124,77 @@ body{
 	line-height: 28px;
 }
 
+/* Projects*/
+.projects{
+	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 85.44%);
+}
+.project-slide{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.project-title{
+	flex-basis: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+	margin: 0;
+	margin-bottom: 41px;
+}
+.project-text{
+	flex-basis: 59%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.project-image{
+	width: 39%;
+	height: 280px;
+	border-radius: 5px;
+}
+.project-time, .project-cost{
+	flex-basis: 50%;
+	margin-bottom: 50px;
+}
+.project-time, .project-cost, .project-feedback{
+	display: flex;
+	align-items: flex-start;
+
+}
+.project-subtitle{
+	margin: 0;
+	margin-bottom: 7px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+}
+.project-paragraph{
+	margin: 0;
+	font-size: 16px;
+	line-height: 19px;
+	/*flex-basis: 70%;*/
+}
+.project-icon{
+	margin-right: 16px;
+}
+.project-pagination{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 44px;
+}
+.projects-bullets{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFBB01;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.projects-bullets-active{
+	background-color: #FFBB01;
+}
+
 /*Контакты*/
 .contact-text{
 	/*margin-left: 70px;*/
